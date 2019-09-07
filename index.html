@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css" href="owl.theme.default.min.css" />
+</head>
+<body>
+<header>
+    <div class="header-promo-bar">FREE SHIPPING ON ORDERS OVER $50</div>
+    <div class="header-menu">
+        <div class="header-logo">
+            <a href="#" title="Logo">
+                <img class="logo" src="https://cdn.shopify.com/s/files/1/1602/2781/files/logoshopify1600x200_x30.jpg?v=1524496497" alt="Logo" />
+            </a>
+            <div class="header-search">
+                <div class="select-currencies">
+                    <label>
+                        <select name="currencies">
+                            <option value="USD" selected="selected">USD</option>
+                            <option value="INR">INR</option>
+                            <option value="GBP">GBP</option>
+                            <option value="CAD">CAD</option>
+                            <option value="AUD">AUD</option>
+                            <option value="EUR">EUR</option>
+                            <option value="JPY">JPY</option>
+                            <option value="PLN">PLN</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="search">
+                    <svg viewBox="0 0 32 32" class="search-icon">
+                        <path fill="#ffcebf" d="M31.562 28.716l-8.713-8.744a12.413 12.413 0 0 0 2.011-6.778C24.86 6.319 19.284.725 12.43.725S0 6.319 0 13.194s5.576 12.469 12.431 12.469c3.281 0 6.261-1.292 8.485-3.383l8.522 8.553a1.495 1.495 0 0 0 2.121.003 1.498 1.498 0 0 0 .003-2.12zm-19.131-6.052C7.23 22.664 3 18.416 3 13.194s4.23-9.469 9.431-9.469c5.2 0 9.43 4.248 9.43 9.469s-4.231 9.47-9.43 9.47z"></path>
+                    </svg>
+                    <div class="search-form">
+                        <form>
+                            <input name="q" type="text" placeholder="Search ..." />
+                            <button type="button">
+                                <svg viewBox="0 0 32 32">
+                                    <path fill="#010101" d="M31.562 28.716l-8.713-8.744a12.413 12.413 0 0 0 2.011-6.778C24.86 6.319 19.284.725 12.43.725S0 6.319 0 13.194s5.576 12.469 12.431 12.469c3.281 0 6.261-1.292 8.485-3.383l8.522 8.553a1.495 1.495 0 0 0 2.121.003 1.498 1.498 0 0 0 .003-2.12zm-19.131-6.052C7.23 22.664 3 18.416 3 13.194s4.23-9.469 9.431-9.469c5.2 0 9.43 4.248 9.43 9.469s-4.231 9.47-9.43 9.47z"></path>
+                                </svg>
+                            </button>
+                        </form>
+                        <div class="search-form-close">
+                            <svg viewBox="0 0 32 32">
+                                <path fill="#ffcebf" d="M17.617 15.564L30.564 2.558A1.5 1.5 0 0 0 28.437.442L15.5 13.438 2.564.442A1.5 1.5 0 0 0 .437 2.558l12.947 13.006L.437 28.571a1.5 1.5 0 0 0 2.127 2.116L15.5 17.691l12.936 12.996a1.5 1.5 0 0 0 2.127-2.116L17.617 15.564z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="top-navigation">
+            <div class="nav-toggle">
+                <input type="checkbox" />
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <ul class="navigation">
+                    <li class="mobile-search-form">
+                        <form>
+                            <input name="q" type="text" placeholder="Search ..." />
+                            <button type="button">
+                                <svg width="20" height="20" viewBox="0 0 32 32">
+                                    <path fill="#010101" d="M31.562 28.716l-8.713-8.744a12.413 12.413 0 0 0 2.011-6.778C24.86 6.319 19.284.725 12.43.725S0 6.319 0 13.194s5.576 12.469 12.431 12.469c3.281 0 6.261-1.292 8.485-3.383l8.522 8.553a1.495 1.495 0 0 0 2.121.003 1.498 1.498 0 0 0 .003-2.12zm-19.131-6.052C7.23 22.664 3 18.416 3 13.194s4.23-9.469 9.431-9.469c5.2 0 9.43 4.248 9.43 9.469s-4.231 9.47-9.43 9.47z"></path>
+                                </svg>
+                            </button>
+                        </form>
+                    </li>
+                    <li class="has-dropdown">
+                        <a class="menu" href="#" title="Products">
+                            <span>PRODUCTS</span>
+                            <span>
+                                <svg viewBox="0 0 129 129" width="12">
+                                    <path fill="currentColor" d="M121.3 34.6c-1.6-1.6-4.2-1.6-5.8 0l-51 51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8 0-1.6 1.6-1.6 4.2 0 5.8l53.9 53.9c.8.8 1.8 1.2 2.9 1.2 1 0 2.1-.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2.1-5.8z"></path>
+                                </svg>
+                            </span>
+                        </a>
+                        <ul class="menu-dropdown">
+                            <div class="menu-dropdown-col-left">
+                                <a href="#" title="All products">ALL PRODUCTS</a>
+                            </div>
+                            <ul class="menu-dropdown-col-right">
+                                <a href="#" title="Collections">COLLECTIONS</a>
+                                <li>
+                                    <a href="#a" title="Brows are everything">Brows Are Everything</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="Summer Picks">Summer Picks</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="Accessories">Accessories</a>
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="menu" href="#" title="Bundles and offers">BUNDLES AND OFFERS</a>
+                    </li>
+                    <li>
+                        <a class="menu" href="#" title="What is tinting">WHAT IS TINTING?</a>
+                    </li>
+                    <li>
+                        <a class="menu" href="#" title="Testimonials">TESTIMONIALS</a>
+                    </li>
+                    <li>
+                        <a class="menu" href="#" title="Help & FQA">HELP & FQA</a>
+                    </li>
+                    <li>
+                        <a class="menu" href="#" title="About us">ABOUT US</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-logo">
+                <img class="logo" src="https://cdn.shopify.com/s/files/1/1602/2781/files/logoshopify1600x200_x30.jpg?v=1524496497" alt="Logo" />
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <section>
+        <div class="banner-carousel owl-carousel owl-theme">
+            <img src="https://cdn.shopify.com/s/files/1/1602/2781/files/Brush_Set1_Banner_4200b910-f253-45ab-a37c-18cab5c8bea0_1500x.jpg" alt="Slide 1" />
+            <img src="https://cdn.shopify.com/s/files/1/1602/2781/files/Summer_Must_Haves_BANNER_caf93756-9178-4789-ad7c-fa8689c9a260_1500x.jpg" alt="Slide 2" />
+            <img src="https://cdn.shopify.com/s/files/1/1602/2781/files/Summer_proof_brows_test_1500x.jpg" alt="Slide 3" />
+        </div>
+    </section>
+    <section class="products-slider">
+        <h2>
+            <a href="#" class="link" title="BROWS ARE EVERYTHING COLLECTION">BROWS ARE EVERYTHING COLLECTION</a>
+        </h2>
+        <div class="products-carousel owl-carousel owl-theme">
+            <div class="product">
+                <a href="#" class="link" title="">
+                    <div class="product-image">
+                        <img src="https://cdn.shopify.com/s/files/1/1602/2781/products/INSTANT_TINT_Render_Slide_DBROWN_BLACK_cdc87494-f33e-43f3-89cb-460da781f7d7_800x.jpg" alt="Product" />
+                    </div>
+                    <div class="product-detail">
+                        <h4 class="product-title">What The Brow! Eyebrow Growth Serum</h4>
+                        <div class="product-price-row">
+                            <span class="product-price is-compare">$25.00</span>
+                            <span class="product-price">$15.00</span>
+                        </div>
+                    </div>
+                </a>
+                <div class="btn-quick-buy">
+                    <svg width="20" height="20" viewBox="0 0 1792 1792">
+                        <path d="M1280 704q0-26-19-45t-45-19h-128v-128q0-26-19-45t-45-19-45 19-19 45v128h-128q-26 0-45 19t-19 45 19 45 45 19h128v128q0 26 19 45t45 19 45-19 19-45v-128h128q26 0 45-19t19-45zm-576 832q0 53-37.5 90.5t-90.5 37.5-90.5-37.5-37.5-90.5 37.5-90.5 90.5-37.5 90.5 37.5 37.5 90.5zm896 0q0 53-37.5 90.5t-90.5 37.5-90.5-37.5-37.5-90.5 37.5-90.5 90.5-37.5 90.5 37.5 37.5 90.5zm128-1088v512q0 24-16 42.5t-41 21.5l-1044 122q1 7 4.5 21.5t6 26.5 2.5 22q0 16-24 64h920q26 0 45 19t19 45-19 45-45 19h-1024q-26 0-45-19t-19-45q0-14 11-39.5t29.5-59.5 20.5-38l-177-823h-204q-26 0-45-19t-19-45 19-45 45-19h256q16 0 28.5 6.5t20 15.5 13 24.5 7.5 26.5 5.5 29.5 4.5 25.5h1201q26 0 45 19t19 45z"></path>
+                    </svg>
+                </div>
+            </div>
+            <div class="product">
+                <a href="#" class="link" title="">
+                    <div class="product-image">
+                        <img src="https://cdn.shopify.com/s/files/1/1602/2781/products/Bundle1_700x.jpg?v=1563290390" alt="Product" />
+                    </div>
+                    <div class="product-detail">
+                        <h4 class="product-title">Prep + Tint Kit + Leopard Baeband</h4>
+                        <div class="product-price-row">
+                            <span class="product-price">$15.00</span>
+                        </div>
+                    </div>
+                </a>
+                <div class="btn-quick-buy">
+                    <svg width="20" height="20" viewBox="0 0 1792 1792">
+                        <path d="M1280 704q0-26-19-45t-45-19h-128v-128q0-26-19-45t-45-19-45 19-19 45v128h-128q-26 0-45 19t-19 45 19 45 45 19h128v128q0 26 19 45t45 19 45-19 19-45v-128h128q26 0 45-19t19-45zm-576 832q0 53-37.5 90.5t-90.5 37.5-90.5-37.5-37.5-90.5 37.5-90.5 90.5-37.5 90.5 37.5 37.5 90.5zm896 0q0 53-37.5 90.5t-90.5 37.5-90.5-37.5-37.5-90.5 37.5-90.5 90.5-37.5 90.5 37.5 37.5 90.5zm128-1088v512q0 24-16 42.5t-41 21.5l-1044 122q1 7 4.5 21.5t6 26.5 2.5 22q0 16-24 64h920q26 0 45 19t19 45-19 45-45 19h-1024q-26 0-45-19t-19-45q0-14 11-39.5t29.5-59.5 20.5-38l-177-823h-204q-26 0-45-19t-19-45 19-45 45-19h256q16 0 28.5 6.5t20 15.5 13 24.5 7.5 26.5 5.5 29.5 4.5 25.5h1201q26 0 45 19t19 45z"></path>
+                    </svg>
+                </div>
+            </div>
+            <div class="product">
+                <a href="#" class="link" title="">
+                    <div class="product-image">
+                        <img src="https://cdn.shopify.com/s/files/1/1602/2781/products/INSTANT_TINT_Render_Slide_DBROWN_BLACK_cdc87494-f33e-43f3-89cb-460da781f7d7_800x.jpg" alt="Product" />
+                    </div>
+                    <div class="product-detail">
+                        <h4 class="product-title">Prep + Tint Kit + Leopard Baeband</h4>
+                        <div class="product-price-row">
+                            <span class="product-price">$15.00</span>
+                        </div>
+                    </div>
+                </a>
+                <div class="btn-quick-buy">
+                    <svg width="20" height="20" viewBox="0 0 1792 1792">
+                        <path d="M1280 704q0-26-19-45t-45-19h-128v-128q0-26-19-45t-45-19-45 19-19 45v128h-128q-26 0-45 19t-19 45 19 45 45 19h128v128q0 26 19 45t45 19 45-19 19-45v-128h128q26 0 45-19t19-45zm-576 832q0 53-37.5 90.5t-90.5 37.5-90.5-37.5-37.5-90.5 37.5-90.5 90.5-37.5 90.5 37.5 37.5 90.5zm896 0q0 53-37.5 90.5t-90.5 37.5-90.5-37.5-37.5-90.5 37.5-90.5 90.5-37.5 90.5 37.5 37.5 90.5zm128-1088v512q0 24-16 42.5t-41 21.5l-1044 122q1 7 4.5 21.5t6 26.5 2.5 22q0 16-24 64h920q26 0 45 19t19 45-19 45-45 19h-1024q-26 0-45-19t-19-45q0-14 11-39.5t29.5-59.5 20.5-38l-177-823h-204q-26 0-45-19t-19-45 19-45 45-19h256q16 0 28.5 6.5t20 15.5 13 24.5 7.5 26.5 5.5 29.5 4.5 25.5h1201q26 0 45 19t19 45z"></path>
+                    </svg>
+                </div>
+            </div>
+            <div class="product">
+                <a href="#" class="link" title="">
+                    <div class="product-image">
+                        <img src="https://cdn.shopify.com/s/files/1/1602/2781/products/INSTANT_TINT_Render_Slide_DBROWN_BLACK_cdc87494-f33e-43f3-89cb-460da781f7d7_800x.jpg" alt="Product" />
+                    </div>
+                    <div class="product-detail">
+                        <h4 class="product-title">Prep + Tint Kit + Leopard Baeband</h4>
+                        <div class="product-price-row">
+                            <span class="product-price">$15.00</span>
+                        </div>
+                    </div>
+                </a>
+                <div class="btn-quick-buy">
+                    <svg width="20" height="20" viewBox="0 0 1792 1792">
+                        <path d="M1280 704q0-26-19-45t-45-19h-128v-128q0-26-19-45t-45-19-45 19-19 45v128h-128q-26 0-45 19t-19 45 19 45 45 19h128v128q0 26 19 45t45 19 45-19 19-45v-128h128q26 0 45-19t19-45zm-576 832q0 53-37.5 90.5t-90.5 37.5-90.5-37.5-37.5-90.5 37.5-90.5 90.5-37.5 90.5 37.5 37.5 90.5zm896 0q0 53-37.5 90.5t-90.5 37.5-90.5-37.5-37.5-90.5 37.5-90.5 90.5-37.5 90.5 37.5 37.5 90.5zm128-1088v512q0 24-16 42.5t-41 21.5l-1044 122q1 7 4.5 21.5t6 26.5 2.5 22q0 16-24 64h920q26 0 45 19t19 45-19 45-45 19h-1024q-26 0-45-19t-19-45q0-14 11-39.5t29.5-59.5 20.5-38l-177-823h-204q-26 0-45-19t-19-45 19-45 45-19h256q16 0 28.5 6.5t20 15.5 13 24.5 7.5 26.5 5.5 29.5 4.5 25.5h1201q26 0 45 19t19 45z"></path>
+                    </svg>
+                </div>
+            </div>
+            <div class="product">
+                <a href="#" class="link" title="">
+                    <div class="product-image">
+                        <img src="https://cdn.shopify.com/s/files/1/1602/2781/products/INSTANT_TINT_Render_Slide_DBROWN_BLACK_cdc87494-f33e-43f3-89cb-460da781f7d7_800x.jpg" alt="Product" />
+                    </div>
+                    <div class="product-detail">
+                        <h4 class="product-title">Prep + Tint Kit + Leopard Baeband</h4>
+                        <div class="product-price-row">
+                            <span class="product-price">$15.00</span>
+                        </div>
+                    </div>
+                </a>
+                <div class="btn-quick-buy">
+                    <svg width="20" height="20" viewBox="0 0 1792 1792">
+                        <path d="M1280 704q0-26-19-45t-45-19h-128v-128q0-26-19-45t-45-19-45 19-19 45v128h-128q-26 0-45 19t-19 45 19 45 45 19h128v128q0 26 19 45t45 19 45-19 19-45v-128h128q26 0 45-19t19-45zm-576 832q0 53-37.5 90.5t-90.5 37.5-90.5-37.5-37.5-90.5 37.5-90.5 90.5-37.5 90.5 37.5 37.5 90.5zm896 0q0 53-37.5 90.5t-90.5 37.5-90.5-37.5-37.5-90.5 37.5-90.5 90.5-37.5 90.5 37.5 37.5 90.5zm128-1088v512q0 24-16 42.5t-41 21.5l-1044 122q1 7 4.5 21.5t6 26.5 2.5 22q0 16-24 64h920q26 0 45 19t19 45-19 45-45 19h-1024q-26 0-45-19t-19-45q0-14 11-39.5t29.5-59.5 20.5-38l-177-823h-204q-26 0-45-19t-19-45 19-45 45-19h256q16 0 28.5 6.5t20 15.5 13 24.5 7.5 26.5 5.5 29.5 4.5 25.5h1201q26 0 45 19t19 45z"></path>
+                    </svg>
+                </div>
+            </div>
+            <div class="product">
+                <a href="#" class="link" title="">
+                    <div class="product-image">
+                        <img src="https://cdn.shopify.com/s/files/1/1602/2781/products/INSTANT_TINT_Render_Slide_DBROWN_BLACK_cdc87494-f33e-43f3-89cb-460da781f7d7_800x.jpg" alt="Product" />
+                    </div>
+                    <div class="product-detail">
+                        <h4 class="product-title">Prep + Tint Kit + Leopard Baeband</h4>
+                        <div class="product-price-row">
+                            <span class="product-price">$15.00</span>
+                        </div>
+                    </div>
+                </a>
+                <div class="btn-quick-buy">
+                    <svg width="20" height="20" viewBox="0 0 1792 1792">
+                        <path d="M1280 704q0-26-19-45t-45-19h-128v-128q0-26-19-45t-45-19-45 19-19 45v128h-128q-26 0-45 19t-19 45 19 45 45 19h128v128q0 26 19 45t45 19 45-19 19-45v-128h128q26 0 45-19t19-45zm-576 832q0 53-37.5 90.5t-90.5 37.5-90.5-37.5-37.5-90.5 37.5-90.5 90.5-37.5 90.5 37.5 37.5 90.5zm896 0q0 53-37.5 90.5t-90.5 37.5-90.5-37.5-37.5-90.5 37.5-90.5 90.5-37.5 90.5 37.5 37.5 90.5zm128-1088v512q0 24-16 42.5t-41 21.5l-1044 122q1 7 4.5 21.5t6 26.5 2.5 22q0 16-24 64h920q26 0 45 19t19 45-19 45-45 19h-1024q-26 0-45-19t-19-45q0-14 11-39.5t29.5-59.5 20.5-38l-177-823h-204q-26 0-45-19t-19-45 19-45 45-19h256q16 0 28.5 6.5t20 15.5 13 24.5 7.5 26.5 5.5 29.5 4.5 25.5h1201q26 0 45 19t19 45z"></path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="full-image">
+        <h2>AS SEEN IN</h2>
+        <figure>
+            <img src="https://cdn.shopify.com/s/files/1/1602/2781/files/AsSeenIn_WWW_2acd8c90-1b81-42eb-a413-48d33b283f64_1500x.jpg" alt="" />
+        </figure>
+    </section>
+    <section class="feedback">
+        <h2>WHAT OUR CUSTOMERS ARE SAYING ABOUT BAEBROW INSTANT TINT!</h2>
+        <div class="slider--container">
+            <div class="slider__slides">
+                <div class="slides--container">
+                    <div class="slide--custom">
+                        <div class="slide__content">
+                            <div class="opinion__text-col">
+                                <h2 class="opinion__title">Without a doubt the winner</h2>
+                                <p>
+                                    My eyebrows are what I appreciate the most when it comes to the face. I’ve tried probably everything on the market...
+                                    <br>
+                                    Now this is without a doubt the winner and only one that I’ve stuck with and will be sticking with. Again, our eyebrows are important, I would never lie to you about your eyebrows!
+                                </p>
+                                <div class="opinion__info-row">
+                                    <div class="info">
+                                        <span class="opinion__author">Andrea</span>
+                                        <ul class="info__media">
+                                            <li>
+                                                <a href="https://www.instagram.com/andreagladso/" target="_blank" rel="noopener noreferrer">
+                                                    <img src="./images/icons-insta.png" alt="IN" />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="./images/icons-cart.png" alt="CART" />
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="opinion__img-col">
+                                <div class="author__img-placeholder">
+                                    <img alt="eyebrow tinting" src="//cdn.shopify.com/s/files/1/1602/2781/files/modelimage.jpg?v=1509523720" style="float: none;" />
+                                    <div class="move--btns">
+                                        <div class="move--btns--prev">&lt;</div>
+                                        <div class="move--btns--next">&gt;</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide--custom">
+                        <div class="slide__content">
+                            <div class="opinion__text-col">
+                                <h2 class="opinion__title">Well done BAEBROW</h2>
+                                <p>
+                                    I was skeptical at first but genuinely like the product a lot. It's very subtle and super easy to use, well done BAEBROW!
+                                </p>
+                                <div class="opinion__info-row">
+                                    <div class="info">
+                                        <span class="opinion__author">Alexia</span>
+                                        <ul class="info__media">
+                                            <li>
+                                                <a href="https://www.instagram.com/andreagladso/" target="_blank" rel="noopener noreferrer">
+                                                    <img src="./images/icons-insta.png" alt="IN" />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="./images/icons-cart.png" alt="CART" />
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="opinion__img-col">
+                                <div class="author__img-placeholder">
+                                    <img alt="eyebrow tinting" src="//cdn.shopify.com/s/files/1/1602/2781/files/WhatsApp_Image_2017-10-24_at_3.30.51_AM_1.jpeg?v=1508838164" style="float: none;" />
+                                    <div class="move--btns">
+                                        <div class="move--btns--prev">&lt;</div>
+                                        <div class="move--btns--next">&gt;</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide--custom">
+                        <div class="slide__content">
+                            <div class="opinion__text-col">
+                                <h2 class="opinion__title">I'm in love</h2>
+                                <p>
+                                    I really like this product. The tint is delicate and gives a beautiful effect. I'm in love with BAEBROW!
+                                </p>
+                                <div class="opinion__info-row">
+                                    <div class="info">
+                                        <span class="opinion__author">Klaudia</span>
+                                        <ul class="info__media">
+                                            <li>
+                                                <a href="https://www.instagram.com/andreagladso/" target="_blank" rel="noopener noreferrer">
+                                                    <img src="./images/icons-insta.png" alt="IN" />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="./images/icons-cart.png" alt="CART" />
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="opinion__img-col">
+                                <div class="author__img-placeholder">
+                                    <img alt="eyebrow tinting" src="//cdn.shopify.com/s/files/1/1602/2781/files/923c40fe-e6da-4f52-9727-019e534ba75b.jpg?v=1509353744" style="float: none;" />
+                                    <div class="move--btns">
+                                        <div class="move--btns--prev">&lt;</div>
+                                        <div class="move--btns--next">&gt;</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__progress--bar">
+                    <div class="progress--counter">01</div>
+                    <div class="progress--blocks">
+                        <div class="progress--block"></div>
+                    </div>
+                    <div class="slides--length">11</div>
+                </div>
+            </div>
+            <div class="slider--btn prev--slide--btn">
+                <div class="btn--image"></div>
+                <div class="btn--desc"><span class="desc__btn">Prev.</span></div>
+            </div>
+            <div class="slider--btn next--slide--btn">
+            <div class="btn--image"></div>
+            <div class="btn--desc"><span class="desc__btn">Next</span></div>
+        </div>
+        </div>
+    </section>
+</main>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="owl.carousel.min.js"></script>
+<script type="text/javascript" src="slider.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $(".search-icon").click(function() {
+            $(this).css({ "display": "none", "opacity": 0 });
+            $(".search-form").css({ "display": "flex", "opacity": 1 });
+        });
+
+        $(".search-form-close").click(function() {
+            $(".search-icon").css({ "display": "block", "opacity": 1 });
+            $(".search-form").css({ "display": "none", "opacity": 0 });
+        });
+
+        $(".banner-carousel").owlCarousel({
+            items: 1,
+            margin: 10,
+            autoHeight:true,
+            autoplay: true,
+            loop: true,
+        });
+
+        $(".products-carousel").owlCarousel({
+            items: 4,
+            loop: true,
+            margin: 10,
+            dots: false,
+            nav: true,
+            navText:["<div class='slider-nav is-prev'></div>","<div class='slider-nav is-next'></div>"],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 4
+                }
+            },
+        });
+    });
+</script>
+</body>
+</html>
